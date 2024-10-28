@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery Shop</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <header>
+           
+        
+        <h1>Elegant Jewellerys</h1>
+        
+            <div class="logo">
+                <img src="bg1.jpg" alt="Jewellery Logo">
+            </div>
+            <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="search.html">SEARCH</i></a>
+                <li><a href="#shop">SHOP</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#cart">CART</a></li>
+            </ul>
+            
+        </nav>
+        
+    </header>
+    
+
+    <section id="home">
+        <h1> Jewellery</h1>
+        <p>WELCOME TO WORLD OF JEWELL.</p>
+    </section>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Welcome to Elegant Jewellerys We create unique, handcrafted jewelry that celebrates individuality and style, our mission is to combine artistry with ethical practices, ensuring every piece is made with care and passion. From timeless classics to contemporary designs, each item tells a story. Join us in celebrating life's special moments with jewelry that resonates. Explore our collection and find your perfect piece!
+           Feel free to customize any part to better fit your brand!
+            </p>
+    </section>
+
+
+
+    <section id="shop">
+        <h2>Shop Our Collection</h2>
+        <div class="product">
+            <img src="ring.jpg" alt="Gold Ring">
+            <h3>Gold Ring</h3>
+            <p> Price:$150</p>
+            <button class="addToCart" data-name="Gold Ring" data-price="150">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="necklace.jpg" alt="Diamond Necklace">
+            <h3>Diamond Necklace</h3>
+            <p> Price:$300</p>
+            <button class="addToCart" data-name="Diamond Necklace" data-price=300">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="bracelet.jpg" alt="Silver Bracelet">
+            <h3>Silver Bracelet</h3>
+            <p> Price:$350</p>
+            <button class="addToCart" data-name="Silver Bracelet" data-price="350">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="crown.jpg" alt="Silver Bracelet">
+            <h3>Crown</h3>
+            <p> Price:$1000</p>
+            <button class="addToCart" data-name="Crown"  data-price="1000">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Dimaond ring.jpg" alt="Silver Bracelet">
+            <h3>Dimaond ring</h3>
+            <p> Price:$1500</p>
+            <button class="addToCart" data-name="Diamond Ring"  data-price="1500">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Dimaond Set.jpg" alt="Silver Bracelet">
+            <h3>Dimaond set </h3>
+            <p> Price:$2000</p>
+            <button class="addToCart" data-name="Diamond Set"  data-price="2000">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="bracelet1.jpg" alt="Silver Bracelet">
+            <h3>Dimaond bracelet </h3>
+            <p>Price:$2500</p>
+            <button  class="addToCart" data-name="Bracelet"  data-price="2500">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="alumini.jpg" alt="Silver Bracelet">
+            <h3>Aluminium set </h3>
+            <p>Price:$2080</p>
+            <button  class="addToCart" data-name="Aluminium set"  data-price="2080">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="bracelet2.jpg" alt="Silver Bracelet">
+            <h3>unique bracelet </h3>
+            <p>Price:$2800</p>
+            <button  class="addToCart" data-name="unique Bracelet"  data-price="2800">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="ankle.jpg" alt="Silver Bracelet">
+            <h3>Ankle Set  </h3>
+            <p>Price:$299</p>
+            <button  class="addToCart" data-name="Ankle Set"  data-price="299">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="bangle.jpg" alt="Silver Bracelet">
+            <h3>Bangles </h3>
+            <p>Price:$2999</p>
+            <button  class="addToCart" data-name="Bangles"  data-price="2999">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="oxidise.jpg" alt="Silver Bracelet">
+            <h3>Oxidised Ankle  </h3>
+            <p>Price:$599</p>
+            <button  class="addToCart" data-name="Oxidised Ankle "  data-price="599">Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="cart">
+    <div class="cart">
+       <button> <h2>Added To Cart</h2>
+        <ul id="cartItems"></ul>
+        <p id="totalPrice">Total: $0</p></button>
+    </div>
+    </section>
+
+   
+
+
+<div>
+        <section id="contact">
+            <h3> MORE INFORMATION CONTACT US</h3>
+            <b1>EMAIL : jewellery88@gmail.com</b1><br>
+            <b2>PHONE NUMBER : 9920345684</b2><br>
+            <b3>Address : Shivaji Nagar 5th cross,Banglore</b3><br>
+        </div>
+
+        
+    
+
+    <footer>
+        <p>&copy; 2024 Elegant Jewellery. All rights reserved.</p>
+    </footer>
+ <script src="indexscript.js"></script>
+    
+</body>
+</html>
